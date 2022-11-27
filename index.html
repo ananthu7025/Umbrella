@@ -6,7 +6,14 @@
   <meta name="author" content="themefisher.com">
 
   <title>Umbrella</title>
-
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
 
@@ -20,7 +27,21 @@
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
-
+  <style>
+	body {
+		animation: fadeInAnimation ease 3s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	@keyframes fadeInAnimation {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+</style>
 </head>
 
 <body id="top">
@@ -48,8 +69,9 @@
 	<nav class="navbar navbar-expand-lg navigation" id="navbar">
 		<div class="container">
 		 	 <a class="navbar-brand" href="index.html">
-			  	<img src="images/logo.png" alt="" class="img-fluid logo" >
-			  </a>
+			  	<img src="images/logo.png" alt="" class="img-fluid logo " >
+			  </a><h3 style="    color: #223a66;
+			  font-family: 'Exo';">Umbrella</h3>
 		  	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="icofont-navigation-menu"></span>
 		  </button>
@@ -73,10 +95,10 @@
 	</nav>
 </header>
 <!-- Slider Start -->
-<section class="banner">
+<section class="banner" data-aos="fade-up">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-md-12 col-xl-7">
+			<div class="col-lg-6 col-md-12 col-xl-7" data-aos="fade-up">
 				<div class="block">
 					<div class="divider mb-3"></div>
 					<span class="text-uppercase text-sm letter-spacing ">Total Behavior therapy solution</span>
@@ -133,14 +155,14 @@
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-4 col-sm-6">
-				<div class="about-img">
-					<img src="images/about/about-1 copy.jpg" alt="" class="img-fluid">
-					<img src="images/about/about-2 copy.jpg" alt="" class="img-fluid mt-4">
+				<div class="about-img ">
+					<img src="images/about/about-1 copy.jpg" alt="" class="img-fluid ">
+					<img src="images/about/about-2 copy.jpg" alt="" class="img-fluid mt-4 ">
 				</div>
 			</div>
 			<div class="col-lg-4 col-sm-6">
 				<div class="about-img mt-4 mt-lg-0">
-					<img src="images/about/about3.jpg" alt="" class="img-fluid">
+					<img src="images/about/about3.jpg" alt="" class="img-fluid ">
 				</div>
 			</div>
 			<div class="col-lg-4">
@@ -209,7 +231,7 @@
 		<div class="row align-items-center">
 			<div class="col-lg-6 ">
 				<div class="appoinment-content">
-					<img src="images/about/about3.jpg" alt="" class="img-fluid">
+					<img src="images/about/about3.jpg" alt="" class="img-fluid ">
 					<div class="emergency">
 						<h2 class="text-lg"><i class="icofont-phone-circle text-lg"></i>7403304301</h2>
 					</div>
@@ -275,7 +297,7 @@
 					<i class="icofont-quote-right"></i>
 
 					<div class="testimonial-thumb">
-						<img src="images/team/test-thumb1.jpg" alt="" class="img-fluid">
+						<img src="images/team/test-thumb1.jpg" alt="" class="img-fluid ">
 					</div>
 
 					<div class="client-info ">
@@ -289,7 +311,7 @@
 
 				<div style="min-height: 400px;" class="testimonial-block style-2  gray-bg" >
 					<div class="testimonial-thumb">
-						<img src="images/team/test-thumb2.jpg" alt="" class="img-fluid">
+						<img src="images/team/test-thumb2.jpg" alt="" class="img-fluid ">
 					</div>
 
 					<div class="client-info">
@@ -315,7 +337,7 @@
 			<div class="col-lg-4 mr-auto col-sm-6">
 				<div class="widget mb-5 mb-lg-0">
 					<div class="logo mb-4">
-						<img src="images/logo.png" alt="" class="img-fluid">
+						<img src="images/logo.png" alt="" class="img-fluid ">
 					</div>
 					<p>Online Consultation, Assessment, Training, Treatment.</p>
 
